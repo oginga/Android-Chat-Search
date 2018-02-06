@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:longClickable="true"
+    android:clickable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/txt_content_incoming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorWhite"
+        android:textColor="@android:color/black"
+        android:clickable="true"
+        android:longClickable="true"
+        android:maxEms="15"
+        android:minEms="10"
+        android:padding="5dp"
+        android:visibility="invisible"
+
+        />
+
+    <TextView
+        android:id="@+id/txt_content_outgoing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txt_content_incoming"
+        android:layout_marginBottom="5dp"
+        android:maxEms="15"
+        android:background="@color/colorWhite"
+        android:textColor="@android:color/black"
+        android:minEms="10"
+        android:padding="5dp"
+        android:visibility="invisible" />
+    <TextView
+        android:id="@+id/txt_special_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        />
+
+</RelativeLayout>

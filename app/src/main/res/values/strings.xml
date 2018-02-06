@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AndroidChatSearch</string>
+    <string name="search">search</string>
+
+
+    <string-array name="chat_script">
+        <item>I’d like to see my brother.</item>
+        <item>Confess.</item>
+        <item>Please. How is he? At least tell me that.</item>
+        <item>Confess.</item>
+        <item>I am the queen and I demand to see my brother.</item>
+        <item>Sinners don’t make commands. They make confessions.</item>
+        <item>My brother, can you tell me how he is?</item>
+        <item>It isn’t Ser Loras that brings me here. Your husband misses you dearly. The love between a man and wife is sacred. It reflects the love the gods have for all of us. But sin leads us away from the sacred. And only confession can purge sin.</item>
+        <item>I have nothing to confess.</item>
+        <item>So you believe you are pure? Perfect? Wholly without sin?</item>
+        <item>None of us are.</item>
+        <item>You have started down the path. But you have many miles to go..</item>
+    </string-array>
+</resources>
